@@ -1,5 +1,20 @@
 {
-  "docsets_to_publish": [],
+  "docsets_to_publish": [
+    {
+      "docset_name": "E2E_Severity_DocFxV3Main",
+      "build_source_folder": "E2E_DocsBranch_Dynamic",
+      "build_output_subfolder": "E2E_Severity_DocFxV3Main",
+      "locale": "fi-fi",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [
@@ -7,7 +22,6 @@
     "main-sxs"
   ],
   "continue_with_document_error": true,
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "dependent_repositories": [
     {
@@ -28,6 +42,7 @@
   ],
   "branch_target_mapping": {},
   "docs_build_engine": {},
+  "skip_source_output_uploading": false,
   "contribution_branch_mappings": {},
   "need_generate_pdf_url_template": true,
   "need_generate_pdf": true,
